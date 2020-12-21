@@ -186,3 +186,6 @@ print(a.T.shape)
 print(a.shape)
 print(a.resize(6,1))
 
+d = a.copy()
+d = a
+print(d is a)
