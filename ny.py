@@ -97,3 +97,16 @@ a = np.arange(10000).reshape(100,100)
 print("-------------------")
 print("100 X100 array")
 print(a)
+
+# Basic Operation of Array using Arithmatic operators
+a = np.array([20,30,40,50])
+print("-------------------")
+print("Array a")
+print(c)
+b = np.arange(4)
+print("-------------------")
+print("Array b")
+print(c)
+c = a-b
+print("Subtraction of array a -b")
+print(c)
