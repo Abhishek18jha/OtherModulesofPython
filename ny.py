@@ -139,4 +139,50 @@ print("matrix product")
 print("-------------------")
 c = A@B
 print(c)
+print(" Another matrix product")
 print("-------------------")
+c= A.dot(B)
+print(c)
+# Indexing, Slicing and Iterating¶
+a = np.arange(10)**3
+print("-------------------")
+print("A")
+print(a)
+
+print("-------------------")
+print("A[2]")
+print(a[2])
+print("-------------------")
+print("A[2:5]")
+print(a[2:5])
+print("-------------------")
+print("A[::-1] reverse of array")
+print(a[::-1])
+for i in a:
+    print(i**(1/3))
+
+def f(x,y):
+    return 10*x + y
+b = np.fromfunction(f,(5,4),dtype=int)
+print(b)
+
+for row in b:
+    print(row)
+
+for element in b.flat:
+    print(element)
+
+#shape manipulation
+a = np.array([[2,41,8],[3,4,5]])
+print(a)
+print(a.shape)
+#flating the a
+print(a.ravel())
+#reshaping 6,2
+print(a.reshape(3,2))
+#tranpose
+print(a.T)
+print(a.T.shape)
+print(a.shape)
+print(a.resize(6,1))
+
