@@ -111,3 +111,32 @@ c = a-b
 print("-------------------")
 print("Subtraction of array a -b")
 print(c)
+c = c**2
+print("-------------------")
+print("Squaring Each element of c")
+print(c)
+c = 10*np.sin(c)
+print("-------------------")
+print("Squaring Each element of c")
+print(c)
+c = a<35
+print("-------------------")
+print("Comparing of with 35")
+print(c)
+
+# Multi plication operation in array
+A = np.array([[1,1],[0,1]])
+B = np.array([[2,0],[3,4]])
+print("-------------------")
+print(A)
+print(B)
+
+print("Element wise product")
+print("-------------------")
+c = A*B
+print(c)
+print("matrix product")
+print("-------------------")
+c = A@B
+print(c)
+print("-------------------")
